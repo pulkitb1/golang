@@ -9,4 +9,5 @@ use (
 	./06mytime
 	./07mypointers
 	./08myarray
+	./09myslices
 )
