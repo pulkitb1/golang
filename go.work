@@ -8,4 +8,5 @@ use (
 	./05maths
 	./06mytime
 	./07mypointers
+	./08myarray
 )
