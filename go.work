@@ -14,4 +14,5 @@ use (
 	./11mystructs
 	./12ifelse
 	./13switchcase
+	./14loops
 )
