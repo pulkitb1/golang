@@ -13,4 +13,5 @@ use (
 	./10mymaps
 	./11mystructs
 	./12ifelse
+	./13switchcase
 )
