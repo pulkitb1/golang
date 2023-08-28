@@ -11,4 +11,5 @@ use (
 	./08myarray
 	./09myslices
 	./10mymaps
+	./11mystructs
 )
