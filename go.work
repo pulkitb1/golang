@@ -12,4 +12,5 @@ use (
 	./09myslices
 	./10mymaps
 	./11mystructs
+	./12ifelse
 )
