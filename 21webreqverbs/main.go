@@ -9,6 +9,7 @@ import (
 
 func main() {
 	PerformGetRequest()
+	PerformPostJsonRequest()
 }
 
 func PerformGetRequest() {
@@ -29,4 +30,26 @@ func PerformGetRequest() {
 	fmt.Println(byteCount)
 	fmt.Println(responseString.String())
 	fmt.Println(string(content))
+}
+
+func PerformPostJsonRequest() {
+	const myurl = "http://localhost:8000/post"
+
+	//fake json payload
+	requestBody := strings.NewReader(`
+		{
+			"user":"pulkit"
+		}
+	`)
+
+	response, err := http.Post(myurl, "application/json", requestBody)
+	if err != nil {
+		panic(err)
+	}
+
+	defer response.Body.Close()
+
+	data, _ := io.ReadAll(response.Body)
+
+	fmt.Println(string(data))
 }
