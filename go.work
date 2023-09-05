@@ -17,4 +17,6 @@ use (
 	./14loops
 	./15functions
 	./16methods
+	./17defer
+	./18files
 )
