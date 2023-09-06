@@ -19,4 +19,10 @@ use (
 	./16methods
 	./17defer
 	./18files
+	./19webrequests
+	./20urls
+	./21webreqverbs
+	./22bitmorejson
+	./23mymodules
+	./24buildapi
 )
