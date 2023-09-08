@@ -26,4 +26,5 @@ use (
 	./23mymodules
 	./24buildapi
 	./25mongoapi
+	./26goroutines
 )
